@@ -1,0 +1,11 @@
+[host]
+name = "dockpi"
+
+[track]
+files = [
+    "/boot/firmware/config.txt",
+    "/etc/rc.local",
+]
+packages = true
+cron = true
+systemd = true
