@@ -1,0 +1,15 @@
+# Copy to stakctrl.toml, or let `stakctrl init` generate it.
+
+[host]
+name   = "dockpi"
+remote = "origin"
+
+[track]
+files = [
+    "/boot/firmware/config.txt",
+    "/etc/rc.local",
+    "/etc/environment",
+]
+packages = true
+cron     = true
+systemd  = true
