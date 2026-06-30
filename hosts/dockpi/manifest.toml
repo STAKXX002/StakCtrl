@@ -1,0 +1,15 @@
+[meta]
+host = "dockpi"
+snapped = "2026-06-30T12:29:34.703446404+00:00"
+snap_id = ""
+
+[packages]
+explicit = []
+
+[files]
+"/boot/firmware/config.txt" = "files/boot_firmware_config.txt"
+
+[cron.users]
+
+[systemd]
+enabled = []
